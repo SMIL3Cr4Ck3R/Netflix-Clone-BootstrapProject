@@ -1,0 +1,126 @@
+
+.sic {
+
+    background-image: url('/assets/img/PS-en-20221017-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+} 
+.overlay {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height:fit-content;
+
+}
+
+.sign {
+
+    width: 35%;
+    padding:  50px 70px ;
+    background-color: rgba(0, 0, 0, 0.8);
+    line-height: 35px;
+    margin-bottom: 4rem
+} 
+
+.formLabel {
+
+    background-color: #333333;
+    border: none;
+    height: 50px;
+    border-radius: 3px;
+    border-bottom:  2px solid #E87C03;
+}
+
+.signInBtn {
+
+    padding : 12px;
+    border-radius: 4px;
+    background-color: #E50914;
+    
+} 
+
+
+.form-check-label {
+
+    color : #AAAAAA;
+
+} 
+
+#exampleCheck1 {
+
+    background-color: #AAAAAA;
+    color: #AAAAAA;
+    font-size: 14px;
+
+
+}
+.needHelp {
+
+    padding-left: 37%;
+    color: #AAAAAA;
+    font-size: 14px;
+    text-decoration: none;
+} 
+
+
+#signupLabel {
+
+    color : #8D8D8D
+
+} 
+
+#signUpGoto {
+
+    text-decoration: none;
+    color : #FFF;
+    font-size: 16px;
+
+} 
+
+.roboto {
+
+    margin-bottom: 5rem;
+
+}
+
+
+.robotTxt {
+
+    color : #9b9b9b;
+    font-size: 0.9em;
+    line-height: 1em;
+} 
+
+#linkLearnMore {
+
+    text-decoration: none;
+
+}
+
+.footer {
+
+    background-color: rgba(0, 0, 0);
+
+}
+
+.footerHeaderTxt {
+
+    color : #737373;
+    text-decoration: none;
+    font-size: 1.1em;
+
+}
+
+.footLinnk {
+
+    text-decoration: none;
+    color : #737373;
+    font-size: 0.9em;
+
+}

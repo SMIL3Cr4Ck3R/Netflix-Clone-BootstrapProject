@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse Movies - Netflix Clone Website" />
+    <meta name="author" content="Mohammed Tahayna">
+    <title>Browse Movies - Netflix Clone Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+
+    <!-- FontAwsome CSS -->
+    <link rel="stylesheet" href="/assets/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/movieStyle.css" />
+</head>
+
+<body>
+
+    <!-- As a link -->
+    <nav class="navbar bg-black p-2">
+        <div class="container-fluid d-flex justify-content-start">
+            <a class="navbar-brand" href="#"> <img src="/assets/img/Netflix_Logo_PMS.png" width="120"
+                    alt="Netflix logo"></a>
+            <ul class="mavbar-list d-flex justify-content-between">
+                <li class="li-link"><a class="list-link" href="#">Home</a></li>
+                <li class="li-link"><a class="list-link" href="#">TV Shows</a></li>
+                <li class="li-link"><a class="list-link" href="#">Movies</a></li>
+                <li class="li-link"><a class="list-link" href="#">Latest</a></li>
+                <li class="li-link"><a class="list-link" href="#">My List</a></li>
+                <li class="li-link"><a class="list-link" href="#">Browse By Languages</a></li>
+            </ul>
+            <div class="leftItemsList ms-5 ">
+                <ul class="iconstList">
+                    <li><i class="fa-inos fa-sharp fa-solid fa-magnifying-glass fa-lg text-white"></i></li>
+                    <li><i class="fa-inos fa-solid fa-bell fa-lg text-white"></i></li>
+                    <li><img src="/assets/img/profileLogog.png" alt="profile logo" /> </li>
+                    <li><i class="fa-solid fa-triangle"></i></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="headerSection ">
+        <div class="container-fluid ps-5">
+            <div class="header-content">
+                <img src="/assets/img/gisf.webp" alt="garbial igueue" width="40%" height="" />
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores placeat ut sint, soluta quam
+                    laboriosam repudiandae eum alias quidem doloremque!</p>
+                <button type="submit" class="btn playBtn bg-white fw-bold px-4 py-2 me-1 "><i
+                        class="fa-solid fa-play"></i> Play</button>
+                <button type="submit" class="btn playBtn text-white fw-bold py-2 px-4"><i
+                        class="fa-solid fa-circle-info"></i> More Info</button>
+            </div>
+        </div>
+        <div class="replayVid d-flex justify-content-end">
+            <i class="fa-solid fa-rotate-right repVid "></i>
+            <p class="ageLabel">16+</p>
+        </div>
+
+    </section>
+    <section class="moviesSec pt-1 px-2 pb-4">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <h2>Trending Now</h2>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="imgs d-flex py-2 pe-2">
+                        <img src="/assets/img/movies/a.webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/b.jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/c.webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/d.jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/e.webp" class="carsoulClass d-block " alt="image a">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="imgs d-flex py-2 pe-2">
+                        <img src="/assets/img/movies/f.jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/q.jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/h.jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/ii.webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/j.webp" class="carsoulClass d-block " alt="image a">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="imgs d-flex py-2 pe-2">
+                        <img src="/assets/img/movies/k.jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/l.webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/p.webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/n.jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/o.jpg" class="carsoulClass d-block " alt="image a">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="true">
+            <h2>Action Movies</h2>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="imgs d-flex py-2 pe-2">
+                        <img src="/assets/img/movies/newMvs/1 (1).jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/1 (1).webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/1 (2).jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/1 (2).webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/1 (3).jpg" class="carsoulClass d-block " alt="image a">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="imgs d-flex py-2 pe-2">
+                        <img src="/assets/img/movies/newMvs/1 (3).webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/1 (4).jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/1 (4).webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/1 (5).jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/1 (5).webp" class="carsoulClass d-block " alt="image a">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="imgs d-flex py-2 pe-2">
+                        <img src="/assets/img/movies/newMvs/1 (6).jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/1 (6).webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/1 (7).jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/1 (7).webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/1 (8).jpg" class="carsoulClass d-block " alt="image a">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="true">
+            <h2>Korean Shows & Movies</h2>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="imgs d-flex py-2 pe-2">
+                        <img src="/assets/img/movies/newMvs/1 (8).webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/1 (9).webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/1 (10).webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/1 (11).webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/1 (12).webp" class="carsoulClass d-block " alt="image a">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="imgs d-flex py-2 pe-2">
+                        <img src="/assets/img/movies/newMvs/korean/a (1).jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/korean/a (1).webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/korean/a (2).jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/korean/a (2).webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/korean/a (3).jpg" class="carsoulClass d-block " alt="image a">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="imgs d-flex py-2 pe-2">
+                        <img src="/assets/img/movies/newMvs/korean/a (3).webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/korean/a (4).jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/korean/a (4).webp" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/korean/a (5).jpg" class="carsoulClass d-block " alt="image a">
+                        <img src="/assets/img/movies/newMvs/korean/a (5).webp" class="carsoulClass d-block " alt="image a">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+    <footer class="footer p-5">
+        <div class="container">
+            <a href="#" class="footerHeaderTxt ">Questions? Contact us.</a>
+            <div class="listFooter ">
+                <ul class="list-inline d-flex justify-content-between w-100 pt-3">
+                    <div class="l1">
+                        <li><a href="http://" class="footLinnk" target="_blank">Audio Description</a></li>
+                        <li><a href="http://" class="footLinnk" target="_blank">Inverstor Relations</a></li>
+                        <li><a href="http://" class="footLinnk" target="_blank">Legal Notices</a></li>
+                    </div>
+                    <div class="l2">
+                        <li><a href="http://" class="footLinnk" target="_blank">Help Center</a></li>
+                        <li><a href="http://" class="footLinnk" target="_blank">Jobs</a></li>
+                        <li><a href="http://" class="footLinnk" target="_blank">Cookie Preferences</a></li>
+                    </div>
+                    <div class="l2">
+                        <li><a href="http://" class="footLinnk" target="_blank">Gifts Cards</a></li>
+                        <li><a href="http://" class="footLinnk" target="_blank">Terms of Use</a></li>
+                        <li><a href="http://" class="footLinnk" target="_blank">Corporate Information</a></li>
+                    </div>
+                    <div class="l2">
+                        <li><a href="http://" class="footLinnk" target="_blank">Media Center</a></li>
+                        <li><a href="http://" class="footLinnk" target="_blank">Privacy</a></li>
+                        <li><a href="http://" class="footLinnk" target="_blank">Contact US</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="dropdown me-4">
+                <button class="btn dropButton dropdown-toggle p-1" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fa-solid fa-globe text-white fs-7"> English</i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item text-white" href="#">English</a></li>
+                    <li><a class="dropdown-item text-white" href="#">Arabic</a></li>
+                </ul>
+            </div>
+            <p>© 1997-2022 Netflix, Inc.{62342346-23423-234234-ff33-2hj34gh23kh}</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

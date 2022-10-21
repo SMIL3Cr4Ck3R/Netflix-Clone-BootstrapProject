@@ -1,0 +1,100 @@
+.navbar {
+
+    border-bottom: 1px solid #aaa;
+
+}
+.sign {
+
+    width: 45%;
+    padding:  50px 70px ;
+    line-height: 30px;
+    margin-bottom: 3.5rem
+} 
+
+.formLabel {
+
+    border: 1px solid #5FA53F;
+    height: 60px;
+    border-radius: 3px;
+}
+
+.signInBtn {
+
+    padding : 16px 12px;
+    border-radius: 4px;
+    background-color: #E50914;
+    border: 1px solid #E50914;
+    
+} 
+
+.signInBtn:hover {
+
+    background-color: #E50914;
+
+    
+} 
+
+
+#exampleCheck1 {
+
+    border-radius: 1px;
+    font-size: 1.6em;
+
+
+}
+.needHelp {
+
+    padding-left: 37%;
+    color: #AAAAAA;
+    font-size: 14px;
+    text-decoration: none;
+} 
+
+
+#signupLabel {
+
+    color : #8D8D8D
+
+} 
+
+#signUpGoto {
+
+    text-decoration: none;
+    color : #FFF;
+    font-size: 16px;
+
+} 
+
+#linkLearnMore {
+
+    text-decoration: none;
+
+}
+
+.footer {
+
+    background-color: #F3F3F3;
+
+}
+
+.footerHeaderTxt {
+
+    color : #737373;
+    text-decoration: none;
+    font-size: 1.1em;
+
+}
+
+.footLinnk {
+
+    text-decoration: none;
+    color : #737373;
+    font-size: 0.9em;
+
+}
+
+#pages1 {
+
+    font-size: 0.8em; 
+
+} 

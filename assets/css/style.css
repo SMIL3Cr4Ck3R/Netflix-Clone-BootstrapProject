@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.pageHeader {
+
+
+    height: 100vh;
+    background-image: url('/assets/img/headerBgImg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.dropdown .dropButton {
+
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    padding-right: 20px;
+    margin-top: 2px
+}
+
+.dropdown .dropButton i {
+
+    font-size: 0.75rem;
+    padding: 5px 0px 7px 5px
+}
+
+.pageHeader .navbar .sign-in-Btn {
+
+    color: #fff;
+    background-color: red;
+    font-size: 1.17rem;
+    border-radius: 5px;
+    padding: 4px 18px;
+}
+
+.pageHeader .navbar .sign-in-Btn a {
+
+    text-decoration: none;
+    color: #fff
+
+}
+
+
+.pageHeader .headerContentBox {
+
+    padding-bottom: 50px;
+
+}
+
+.pageHeader .headerContentBox .headerContent>h1,
+h2,
+h3 {
+
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+}
+
+.pageHeader .headerContentBox .headerContent h1 {
+
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.pageHeader .headerContentBox .headerContent h2 {
+
+    font-size: 28px;
+    padding-bottom: 5px;
+}
+
+.pageHeader .headerContentBox .headerContent h3 {
+
+    font-size: 21px;
+}
+
+.email-tf {
+
+    width: 70%;
+    height: 60px;
+    border-radius: 4px 0px 0px 4px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    padding-left: 7px;
+
+}
+
+.email-btn {
+
+    width: 190px;
+    height: 58px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    font-size: 1.7rem;
+    font-weight: 400;
+
+}
+
+.email-btn:hover {
+
+    background-color: #BB0A12;
+}
+
+
+
+.infoBannersSection .container-fluid>.tv-section,
+.download-section,
+.watch-section,
+.kids-section,
+.question-section ,.pageFooter {
+
+    border: 8px solid #222222;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+
+.infoBannersSection h1 {
+
+
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 900;
+
+}
+
+.infoBannersSection h2 {
+
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+
+.infoBannersSection .animationContainter {
+
+    display: grid;
+}
+
+.infoBannersSection .animationContainter img,
+.infoBannersSection .animationContainter video {
+
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+.infoBannersSection .tv-section .animationContainter img {
+
+    z-index: 999;
+
+}
+
+.infoBannersSection .tv-section .animationContainter video {
+
+    z-index: 998;
+    margin-left: 68px;
+    margin-top: 83px;
+}
+
+
+.infoBannersSection .download-section .animationContainter {
+
+    position: relative;
+
+}
+
+
+.infoBannersSection .download-section .floatingLoading {
+
+    border: 2px solid #404040;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 7px 15px;
+    width: 65%;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.infoBannersSection .download-section .textLoading {
+
+    line-height: 5px;
+}
+
+.infoBannersSection .download-section .textLoading h5 {
+
+    font-size: 18px;
+    color: #fff;
+
+
+}
+
+.infoBannersSection .text-center {
+
+    width: 48%;
+}
+
+.infoBannersSection .watch-section .animationContainter img {
+
+    z-index: 999;
+
+}
+
+.infoBannersSection .watch-section .animationContainter video {
+
+    z-index: 998;
+    transform: translate(30%, 20%);
+}
+
+.infoBannersSection .question-section {
+
+    padding-bottom: 90px;
+
+}
+
+.infoBannersSection .question-section h1 {
+
+    font-size: 3.5rem;
+    width: 100%;
+    font-weight: 700;
+    padding: 60px 0px 40px 0px
+}
+
+.infoBannersSection .question-section .acc-a {
+
+    width: 65%;
+    background-color: #000;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.infoBannersSection .question-section .acc-a .accordion-item {
+
+    background-color: #000;
+
+}
+
+
+
+.infoBannersSection .question-section .acc-a .accordion-item h2 button {
+
+    background-color: #303030;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+    padding: 23px 30px;
+}
+
+.infoBannersSection .question-section .acc-a .accordion-item .accordion-body {
+
+    background-color: #303030;
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 35px;
+    padding: 28px
+}
+
+.infoBannersSection .question-section .acc-a .accordion-item .ccordion-collapse {
+
+    background-color: #000;
+}
+
+.infoBannersSection .question-section  p {
+    
+
+    color : #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+
+.pageFooter {
+    
+    background-color : #000;
+    padding : 60px 0px
+
+}
+
+.pageFooter .footerContent {
+
+    display : flex;
+    justify-content : space-around;
+
+}
+
+.pageFooter  ul {
+    
+    list-style: none ;
+
+}
+
+.pageFooter .footerContent li {
+
+    line-height: 35px;
+
+}
+
+.pageFooter .footerContent li:hover {
+
+    text-decoration : underline
+
+}
+
+.pageFooter .footerContent a {
+    
+    text-decoration: none;
+    color : #737373;
+    font-size: 0.9rem;
+}
+
+.pageFooter p {
+
+    color : #737373;
+    font-size: 1rem;
+    text-align: center;
+}
+

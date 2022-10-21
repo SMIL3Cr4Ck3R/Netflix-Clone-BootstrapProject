@@ -1,0 +1,156 @@
+
+.mavbar-list {
+
+    width: 40%;
+    font-size:0.90em;
+    padding-top: 16px;
+}
+
+.li-link {
+
+    list-style: none;
+
+} 
+
+
+.list-link {
+
+    color: #fff;
+    text-decoration: none;
+}
+
+.leftItemsList {
+
+    width: 45%;
+
+}
+
+.iconstList {
+
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+
+.iconstList li {
+
+    list-style-type: none;
+    padding-right: 26px;
+}
+
+.headerSection {
+
+    background-image: url('/assets/img/headerBG.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -60px;
+    height: 100vh;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.1);
+} 
+
+.header-content {
+
+    padding-top: 90px
+
+}
+
+.header-content p {
+
+    color: #fff;
+    font-size: 18px;
+    width: 42%;
+    padding-top: 15px;
+    line-height: 21px;
+}
+
+.playBtn {
+
+    background-color: rgba(108, 117, 125, 0.6);
+
+}
+
+.repVid {
+
+    color: #fff;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    border-radius:50%;
+    padding-left : 9px;
+    padding-bottom: 11px;
+    margin-right: 10px;
+}
+
+.moviesSec {
+
+    background-image: linear-gradient(#000, #141414);
+
+}
+.ageLabel {
+
+    background-color:rgb(34, 36, 38,0.8);
+    color: #fff;
+    width:7%;
+    padding : 5px 5px 5px 0px;
+    border-left: 3px solid #fff;
+    font-weight: bold
+} 
+
+.carsoulClass {
+
+    width: 20%;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.footer {
+
+    background-color: rgba(0, 0, 0);
+    border-top: 1px solid #737373;
+    padding-top: 10px
+}
+
+.footerHeaderTxt {
+
+    color : #737373;
+    text-decoration: none;
+    font-size: 1.1em;
+
+}
+
+.footLinnk {
+
+    text-decoration: none;
+    color : #737373;
+    font-size: 0.9em;
+
+}
+
+.container p {
+
+    color : #737373;
+    padding-top:40px
+
+} 
+
+.carousel h2 {
+
+    color: #fff;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+.carousel-inner .imgs img{
+
+    transition: transform 0.3s ease-in-out 0.4s;
+
+}
+
+.carousel-inner .imgs img:hover {
+
+    transform: scale(1.1);
+}
